@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.containerPrincipal{
+    display: flex;
+    flex-direction: column;
+    
+}
+.topo{
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding: 20px;
+    height: 20px;
+}
+.textoTopo{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sessaoNome{
+    background-color: #c33ea5;
+    height: 300px;
+    padding-top: 150px;
+    
+}
+#textoNome{
+    font-size: 75px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+#textoProfissao{
+    font-size: 35px;
+    text-align: center;
+    color:white;
+}
+.sessaoSobre{  
+    background-color: rgb(245, 221, 247);
+    display: flex;
+    flex-direction: column;   
+}
+.tituloSessao{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+#textoSobre{
+    padding: 20px; 
+    color:black;
+    text-align: justify; 
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 19px;
+    line-height: normal;
+}
+#listaTecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.nomeEtecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.nomeTecnologia{
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+.imagem{
+  padding: 5px;
+  width: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
